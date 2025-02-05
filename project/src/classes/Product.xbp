@@ -1,0 +1,6 @@
+CLASS Produto
+    DATA codigo, descricao, quantidade, preco
+    METHOD cadastrar()
+    METHOD atualizar()
+    METHOD remover()
+ENDCLASS

@@ -1,0 +1,58 @@
+{
+    "fileTypes": [
+      "prg"
+    ],
+    "name": "Xbase++",
+    "patterns": [
+      {
+        "match": "(?<=\\b)(IF|DO|FOR|WHILE|ENDIF|RETURN)(?=\\b)",
+        "name": "keyword.control.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(VAR|PRIVATE|PUBLIC|LOCAL)(?=\\b)",
+        "name": "storage.modifier.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(FUNCTION|PROCEDURE|ENDPROC|ACCEPT|METHOD|CLASS)(?=\\b)",
+        "name": "keyword.declaration.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(STATIC|INHERIT|ABSTRACT|VIRTUAL)(?=\\b)",
+        "name": "keyword.class.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(NEW|DELETE|ALLOCATE|COPY)(?=\\b)",
+        "name": "keyword.memory.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(INDEX|USE|SELECT|SET)(?=\\b)",
+        "name": "keyword.database.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(READ|WRITE|LOCK|UNLOCK)(?=\\b)",
+        "name": "keyword.file.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(INCLUDE|LIBRARY)(?=\\b)",
+        "name": "keyword.include.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(OBJECT|EXPRESSION|ARRAY|EVALUATE)(?=\\b)",
+        "name": "keyword.object.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(TRY|CATCH|FINALLY|THROW)(?=\\b)",
+        "name": "keyword.exception.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(EXIT|BREAK|CONTINUE)(?=\\b)",
+        "name": "keyword.flow.xbase++"
+      },
+      {
+        "match": "(?<=\\b)(EXITDO|EXITFOR|EXITWHILE)(?=\\b)",
+        "name": "keyword.exit.xbase++"
+      }
+    ],
+    "scopeName": "source.xbase++"
+  }
+  
